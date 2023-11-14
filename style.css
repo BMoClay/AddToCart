@@ -15,10 +15,10 @@ html, body {
 }
 
 h1 {
-    font-size: 45px;
-    font-family: 'Ultra', serif;
+    font-size: 40px;
+    font-family: 'Courier', serif;
     margin: 0;
-    text-align: center;
+    text-align: left;
     display: block;
 }
 
