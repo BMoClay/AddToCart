@@ -1,8 +1,13 @@
+
 html, body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
+    color: #432000;
+    //user-select none makes it so you can't select anything
+    //on the screen so you dont accidently highlight select smthng
+    user-select: none;
 }
 
 .container {
@@ -39,3 +44,297 @@ button {
     text-align: center;
     font-family: 'Rubik', sans-serif;
 }
+
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1)
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html, body {
+    margin: 0;
+    padding: 0;
+}    
+
+h1 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 50px;
+    text-align: center;
+}    
+
+#stories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}    
+
+.story {
+    background-color: #eee;
+    padding: 15px;
+    width: 25%;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 600;
+}    
+
+.story:hover {
+    cursor: pointer;
+    background-color: #fc4103;
+    color: #fff;
+}     
+ */
+
+
+
+/* html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+}    
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}    
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}    
+
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}    
+
+button {
+    color: #FDFDFD;
+    background-color: #AC485A;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}     
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}    
+
+ul li {
+    font-size: 20px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+} */    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F0E6;
+    color: #FBFBFB;
+}        
+
+.container {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 30px auto;
+}        
+
+h1 {
+    font-size: 45px;
+    font-family: 'Martian Mono', serif;
+    margin: 0;
+    text-align: center;
+    display: block;
+    color: #2C362B;
+}        
+
+.field {
+    display: flex;
+    column-gap: 10px;
+}        
+
+input[type="text"] {
+    background-color: #6C3932;
+    font-size: 25px;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;    
+    width: 100%;
+    color: #FBFBFB;
+}        
+
+input[type="text"]::placeholder {
+    color: #371F1B;
+}        
+
+button {
+    background-color: #A57042;
+    color: #260F0F;
+    font-size: 25px;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    width: 70px;
+}        
+
+button:hover {
+    cursor: pointer;
+    background-color: #D3945D;
+}        
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+}        
+
+li {
+    list-style: none;
+    background-color: #2C362B;
+    font-size: 18px;
+    padding: 15px;
+    height: 120px;
+    width: 40%;
+    text-align: left;
+}         */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}    
+
+.beatles {
+    display: flex;
+    max-width: 450px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}    
+
+.beatle {
+    border: 2px solid white;
+}    
+
+ */
+
+
+
+
+
+
+
+
+
+
+ 
